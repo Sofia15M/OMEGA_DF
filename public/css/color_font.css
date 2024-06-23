@@ -13,6 +13,14 @@
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana del navegador */
+    z-index: 0;
+}
+
+
 :root {
     --Negro: #252525;
     --gris: #D7D5D3;

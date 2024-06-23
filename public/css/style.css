@@ -1,0 +1,91 @@
+body {
+    font-family: 'Bitter', serif;
+    color: var(--Negro);
+    background-color: var(--gris);
+    padding: 100px;
+}
+
+table {
+    width: 100%;
+    margin-top: 130px;
+    border-collapse: collapse;
+    border: 1px solid var(--Negro);
+}
+
+tr:hover {
+    background-color: var(--Azul5);
+    cursor: pointer;
+}
+
+td {
+
+    border: 1px solid var(--Negro);
+    padding: 10px;
+    text-align: left;
+    background-color: #f5f5f5;
+}
+
+th {
+    border: 1px solid var(--Negro);
+    padding: 10px;
+    text-align: left;
+    background-color: var(--Azul3);
+    color: white;
+}
+
+/* Estilos para el botón pdf */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #007bff; /* Borde del botón */
+    border-radius: 5px;
+    background-color:var(--azul); /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+}
+
+/* Cambio de estilo al pasar el mouse sobre el botón */
+.btn-primary:hover {
+    background-color: var(--azul1); /* Cambiar el color de fondo al pasar el mouse */
+}
+
+.editar{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--verde); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    margin-bottom: 10px;
+    width: 77px;
+}
+
+.editar:hover {
+    background-color: var(--verde1); /* Cambiar el color de fondo al pasar el mouse */
+}
+
+.desativar{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--rojo); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+}
+
+.desativar:hover {
+    background-color: var(--rojo1); /* Cambiar el color de fondo al pasar el mouse */
+}
+
+.titulo{
+    text-align: center;
+}
