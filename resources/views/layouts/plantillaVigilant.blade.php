@@ -23,57 +23,6 @@
             </nav>
         </div>
     </header>
-    <aside class="sidebar">
-        <div class="logo">
-        <img src="{{ asset('img/Logo.jpg') }}" alt="logo">
-        <h2>DigitalFace</h2>
-        </div>
-        <ul class="links">
-        <h4>Unidad</h4>
-        <li>
-            <span class="material-symbols-outlined">home</span>
-            <a href="#">Info. Unidad</a>
-        </li>
-        <li>
-            <span class="material-symbols-outlined">apartment</span>
-            <a href="#">Info. Apartamentos</a>
-        </li>
-        <li>
-            <span class="material-symbols-outlined">group</span>
-            <a href="#">Info. Residentes</a>
-        </li>
-        <hr>
-        <h4>Personal</h4>
-        <li>
-            <span class="material-symbols-outlined">admin_panel_settings</span>
-            <a href="#">Info. Administradores</a>
-        </li>
-        <li>
-            <span class="material-symbols-outlined">admin_panel_settings</span>
-            <a href="#">Info. Vigilantes</a>
-        </li>
-        <li>
-            <span class="material-symbols-outlined">group</span>
-            <a href="#">Info. Personal</a>
-        </li>
-        <hr>
-        <h4>Visitantes y otros</h4>
-        <li>
-            <span class="material-symbols-outlined">person</span>
-            <a href="#">Info. Visitantes</a>
-        </li>
-        <li>
-            <span class="material-symbols-outlined">person</span>
-            <a href="#">Info. Domiciliarios</a>
-        </li>
-        <hr>
-        <li class="logout-link">
-            <span class="material-symbols-outlined">logout</span>
-            <a href="#">cerrar sesion</a>
-        </li>
-        </ul>
-    </aside>
-
 
     @yield('content')
 

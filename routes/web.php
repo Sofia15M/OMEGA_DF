@@ -26,39 +26,39 @@ Route::get('crear', function () {
     return view('admin.crearUser.usuario');
 });
 
-Route::get('infoAdmin', function () {
+Route::get('infoAdminA', function () {
     return view('admin.infoAdmin.indexAdmin');
 });
 
-Route::get('infoApartamento', function () {
+Route::get('infoApartamentoA', function () {
     return view('admin.infoApartamento.indexApartamento');
 });
 
-Route::get('infoDomiciliario', function () {
+Route::get('infoDomiciliarioA', function () {
     return view('admin.infoDomiciliario.indexDomiciliario');
 });
 
-Route::get('infoPersonal', function () {
+Route::get('infoPersonalA', function () {
     return view('admin.infoPersonal.indexPersonal');
 });
 
-Route::get('infoPropietario', function () {
+Route::get('infoPropietarioA', function () {
     return view('admin.infoPropietario.indexPropietario');
 });
 
-Route::get('infoResidente', function () {
+Route::get('infoResidenteA', function () {
     return view('admin.infoResidente.indexResidente');
 });
 
-Route::get('infoUnidad', function () {
+Route::get('infoUnidadA', function () {
     return view('admin.infoUnidad.indexUnidad');
 });
 
-Route::get('infoVigilante', function () {
+Route::get('infoVigilanteA', function () {
     return view('admin.infoVigilante.indexVigilante');
 });
 
-Route::get('infoVisitante', function () {
+Route::get('infoVisitanteA', function () {
     return view('admin.infoVisitante.indexVisitante');
 });
 

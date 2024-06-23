@@ -1,4 +1,4 @@
-@extends('layouts.plantillaInfo')
+@extends('layouts.plantillaAdmin')
 
 @section('title', 'Administrador')
 
