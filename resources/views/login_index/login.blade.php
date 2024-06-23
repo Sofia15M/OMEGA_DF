@@ -1,4 +1,4 @@
-@extends('layouts.plantillaInfo')
+@extends('layouts.plantillaLogin')
 
 @section('title', 'Inicio de sesion')
 

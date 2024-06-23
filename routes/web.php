@@ -22,43 +22,43 @@ Route::get('admin', function () {
     return view('admin.admin');
 });
 
-Route::get('crear', function () {
+Route::get('admin/crearUsuarios', function () {
     return view('admin.crearUser.usuario');
 });
 
-Route::get('infoAdminA', function () {
+Route::get('admin/infoAdministradores', function () {
     return view('admin.infoAdmin.indexAdmin');
 });
 
-Route::get('infoApartamentoA', function () {
+Route::get('admin/infoApartamentos', function () {
     return view('admin.infoApartamento.indexApartamento');
 });
 
-Route::get('infoDomiciliarioA', function () {
+Route::get('admin/infoDomiciliarios', function () {
     return view('admin.infoDomiciliario.indexDomiciliario');
 });
 
-Route::get('infoPersonalA', function () {
+Route::get('admin/infoPersonal', function () {
     return view('admin.infoPersonal.indexPersonal');
 });
 
-Route::get('infoPropietarioA', function () {
+Route::get('admin/infoPropietarios', function () {
     return view('admin.infoPropietario.indexPropietario');
 });
 
-Route::get('infoResidenteA', function () {
+Route::get('admin/infoResidentes', function () {
     return view('admin.infoResidente.indexResidente');
 });
 
-Route::get('infoUnidadA', function () {
+Route::get('admin/infoUnidad', function () {
     return view('admin.infoUnidad.indexUnidad');
 });
 
-Route::get('infoVigilanteA', function () {
+Route::get('admin/infoVigilantes', function () {
     return view('admin.infoVigilante.indexVigilante');
 });
 
-Route::get('infoVisitanteA', function () {
+Route::get('admin/infoVisitantes', function () {
     return view('admin.infoVisitante.indexVisitante');
 });
 
@@ -67,39 +67,39 @@ Route::get('vigilant', function () {
     return view('vigilant.vigilant');
 });
 
-Route::get('infoAdmin', function () {
+Route::get('vigilant/infoAdministradores', function () {
     return view('vigilant.infoAdmin.indexAdmin');
 });
 
-Route::get('infoApartamento', function () {
+Route::get('vigilant/infoApartamentos', function () {
     return view('vigilant.infoApartamento.indexApartamento');
 });
 
-Route::get('infoDomiciliario', function () {
+Route::get('vigilant/infoDomiciliarios', function () {
     return view('vigilant.infoDomiciliario.indexDomiciliario');
 });
 
-Route::get('infoPersonal', function () {
+Route::get('vigilant/infoPersonal', function () {
     return view('vigilant.infoPersonal.indexPersonal');
 });
 
-Route::get('infoPropietario', function () {
+Route::get('vigilant/infoPropietarios', function () {
     return view('vigilant.infoPropietario.indexPropietario');
 });
 
-Route::get('infoResidente', function () {
+Route::get('vigilant/infoResidentes', function () {
     return view('vigilant.infoResidente.indexResidente');
 });
 
-Route::get('infoUnidad', function () {
+Route::get('vigilant/infoUnidad', function () {
     return view('vigilant.infoUnidad.indexUnidad');
 });
 
-Route::get('infoVigilante', function () {
+Route::get('vigilant/infoVigilantes', function () {
     return view('vigilant.infoVigilante.indexVigilante');
 });
 
-Route::get('infoVisitante', function () {
+Route::get('vigilant/infoVisitantes', function () {
     return view('vigilant.infoVisitante.indexVisitante');
 });
 
